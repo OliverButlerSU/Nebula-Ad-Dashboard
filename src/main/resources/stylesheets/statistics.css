@@ -1,0 +1,183 @@
+
+.dataGrid{
+  -fx-background-color: #FFFFFF;
+  -fx-background-radius: 15;
+  -fx-border-color: rgba(0, 0, 0, 1);
+  -fx-border-style: solid;
+  -fx-border-radius: 15;
+  -fx-border-width: 0.23px, 0.23px, 0.23px, 0.23px;
+  /*-fx-grid-lines-visible: true;*/
+
+}
+
+.dualbox {
+
+  -fx-border-width: 0.3px, 0px;
+  -fx-border-color: rgba(0, 0, 0, 1);
+  -fx-border-style: hidden solid hidden hidden;
+}
+
+.scrollbox {
+
+  -fx-border-width: 0.3px, 0px;
+  -fx-border-color: rgba(0, 0, 0, 1);
+  -fx-border-style: hidden hidden solid hidden;
+}
+
+.miniFilterBox {
+
+  -fx-border-width: 0.3px, 0.3px;
+  -fx-border-color: rgba(0, 0, 0, 1);
+  -fx-border-style: solid hidden hidden hidden;
+}
+
+.fileBox {
+  -fx-background-color: #FFFFFF;
+  -fx-background-radius: 30;
+}
+
+.mainChart, .multiChart, .scroller{
+  -fx-background-color: #FFFFFF;
+  -fx-background-radius: 30;
+}
+
+.chart-content {
+  -fx-padding: 10px;
+}
+
+.scroll-heading, .chart-heading, .filter-heading{
+  -fx-font-style: normal;
+  -fx-font-weight: bold;
+  -fx-font-size: 20px;
+  -fx-line-height: 23px;
+  -fx-text-fill: #414141;
+
+}
+
+.mfx-toggle-button {
+  -fx-padding: 10;
+}
+
+
+.mfx-toggle-button .mfx-ripple-generator {
+  -mfx-animation-speed: 1.5;
+  -mfx-ripple-radius: 10;
+  -mfx-ripple-opacity: 0.4;
+}
+
+.mfx-toggle-button .circle {
+  -fx-stroke: transparent;
+}
+
+.mfx-toggle-button .line {
+  -fx-stroke-line-cap: ROUND;
+  -fx-opacity: 0.3;
+}
+
+.mfx-toggle-button:disabled .circle,
+.mfx-toggle-button:disabled:selected .circle {
+  -fx-fill: gray;
+}
+
+.mfx-toggle-button:disabled .line,
+.mfx-toggle-button:disabled:selected .line {
+  -fx-stroke: gray;
+}
+
+/********************
+Date Picker
+********************/
+.mfx-date-picker {
+  -fx-padding: 3 5 3 5;
+  -fx-border-style: solid;
+  -fx-border-width: 1;
+  -fx-border-color: #424242;
+  -fx-border-radius: 5;
+}
+
+.mfx-date-picker .mfx-icon-wrapper .mfx-ripple-generator {
+  -mfx-ripple-radius: 30;
+  -mfx-ripple-color: #e7ddf5;
+}
+
+.mfx-date-picker:disabled .icon {
+  -mfx-color: #bcbcbc;
+}
+
+/********************
+Popup
+********************/
+.mfx-date-picker .date-picker-popup .content {
+  -fx-background-color: white;
+  -fx-background-radius: 10;
+  -fx-border-width: 1;
+  -fx-border-color: rgba(0, 0, 0, 0.1);
+  -fx-border-radius: 10;
+  -fx-padding: 15;
+  -fx-min-height: 300;
+}
+
+.mfx-date-picker .date-picker-popup .left-arrow:disabled,
+.mfx-date-picker .date-picker-popup .right-arrow:disabled {
+  -fx-opacity: 0.5;
+}
+
+
+.mfx-date-picker .date-picker-popup .left-arrow .mfx-ripple-generator,
+.mfx-date-picker .date-picker-popup .right-arrow .mfx-ripple-generator {
+  -mfx-ripple-color: #F0E9FF;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo,
+.mfx-date-picker .date-picker-popup .years-combo {
+  -mfx-float-mode: disabled;
+  -mfx-scroll-on-open: true;
+  -fx-padding: 3 5 3 5;
+  -fx-max-width: 80;
+  -fx-max-height: 40;
+}
+
+
+.mfx-date-picker .date-picker-popup .months-combo .mfx-icon-wrapper .mfx-ripple-generator,
+.mfx-date-picker .date-picker-popup .years-combo .mfx-icon-wrapper .mfx-ripple-generator {
+  -mfx-ripple-color: #F0E9FF;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow .mfx-combo-box-cell,
+.mfx-date-picker .date-picker-popup .years-combo .virtual-flow .mfx-combo-box-cell {
+  -fx-padding: 3 5 3 5;
+
+}
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow .mfx-combo-box-cell:hover,
+.mfx-date-picker .date-picker-popup .years-combo .virtual-flow .mfx-combo-box-cell:hover {
+  -fx-background-color: #f8f7fa;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow, .mfx-date-picker .date-picker-popup .years-combo .virtual-flow{
+  -fx-border-style: solid;
+  -fx-border-width: 1;
+  -fx-border-color: rgba(0, 0, 0, 0.1);
+  /*-fx-border-radius: 5;*/
+  -fx-max-width: 170;
+  -fx-max-height: 200;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow .mfx-combo-box-cell:selected,
+.mfx-date-picker .date-picker-popup .years-combo .virtual-flow .mfx-combo-box-cell:selected {
+  -fx-background-color: #f8f7fa;
+}
+
+
+.mfx-date-picker .date-picker-popup .week-day {
+  -fx-padding: 0 0 5 0;
+  -fx-font-weight: bold;
+  -fx-font-size: 18;
+}
+
+
+
+
+
+
+

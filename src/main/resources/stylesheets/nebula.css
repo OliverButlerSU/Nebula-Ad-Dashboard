@@ -1,0 +1,235 @@
+/*Dashboard css begin*/
+.grid {
+  -fx-background-image: url("Design/magicpattern-mesh-gradient-1680254629947.png");
+  -fx-background-color: transparent;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+}
+
+.viewCosts, .viewImpressions, .viewBounces, .viewClicks {
+  -fx-background-color: linear-gradient(to bottom right, #e6ddf8 7.68%, #e1d9fd 48.97%, #ccbdf6 83.67%);
+}
+
+.viewImpressions:hover, .viewBounces:hover, .viewClicks:hover, .viewCosts:hover{
+  -fx-background-color: linear-gradient(to bottom right , #d8c8f8 7.68%, #aca0e0 48.97%, #7b67b8 83.67%);
+}
+
+
+.viewClicks .subheading, .viewImpressions .subheading, .viewBounces .subheading, .viewCosts .subheading{
+  -fx-fill: #59478b;
+}
+
+.viewClicks .heading, .viewImpressions .heading, .viewBounces .heading, .viewCosts .heading{
+  -fx-fill: #59478b;
+}
+
+
+
+.viewCosts .btn, .viewImpressions .btn, .viewBounces .btn, .viewClicks .btn{
+  -fx-background-color: #725BB2;
+}
+
+.prevBtn {
+  -fx-background-color:  #725BB2;
+  /*-fx-shape-preserve-ratio: xMidYMid meet;*/
+}
+
+
+.stats:hover .btn, .import:hover .btn, .settings:hover .btn, .help:hover .btn,.home:hover .btn {
+  -fx-background-color: #8a79bb;
+}
+
+.stats:hover .label, .import:hover .label, .settings:hover .label, .help:hover .label,.home:hover .label {
+  -fx-text-fill: #8a79bb;
+}
+
+.stats .btn, .import .btn, .print .btn, .settings .btn, .help .btn,.home .btn {
+  -fx-background-color: #414141;
+}
+
+.stats .label, .import .label, .print .label, .settings .label, .help .label,.home .label {
+  -fx-text-fill: #414141;
+}
+
+#current-nav .btn {
+  -fx-background-color: #725BB2;
+}
+
+#current-nav:hover .btn {
+  -fx-background-color: #725BB2;
+}
+
+#current-nav:hover .label {
+  -fx-text-fill: #725BB2;
+}
+
+#current-nav .label {
+  -fx-text-fill: #725BB2;
+}
+
+.chart-vertical-grid-lines {
+  -fx-stroke: #725BB2;
+}
+.chart-horizontal-grid-lines {
+  -fx-stroke: #725BB2;
+}
+
+.chart-series-line {
+  -fx-stroke: #725BB2;
+}
+
+.chart-plot-background {
+  -fx-background-color: #eaf4ff;
+}
+
+.chart-series-area-fill {
+  -fx-fill: #725BB2;
+}
+
+.scroll-item {
+  -fx-border-color: #725BB2;
+}
+
+.scroll-pane > .scroll-bar > .thumb {
+  -fx-background-color: #725BB2;
+}
+
+.scroll-pane > .scroll-bar > .track {
+  -fx-background-color: #dad9f5;
+}
+
+.combo-box:hover .list-cell {
+  -fx-text-fill: #725BB2;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover
+{
+  -fx-text-fill: #725BB2;
+}
+
+.combo-box-popup .list-view .list-cell:filled:selected
+{
+  -fx-text-fill: #725BB2;
+}
+
+.combo-box:hover .arrow{
+  -fx-background-color: #725BB2;
+}
+
+.save-button:hover {
+  -fx-background-color: #725BB2;
+}
+
+#empty-arrow{
+  -fx-background-color: #414141;
+}
+
+#full-arrow{
+  -fx-background-color: #725BB2;
+}
+
+.print-button:hover {
+  -fx-background-color: #725BB2;
+}
+
+/*Dashboard css end*/
+
+/*Statistics css begin*/
+
+
+.mfx-toggle-button {
+  -mfx-main: #6200EE;
+  -mfx-secondary: #424242;
+
+  -fx-padding: 10;
+}
+
+
+.mfx-toggle-button .mfx-ripple-generator {
+  -mfx-ripple-color: #6200EE;
+}
+
+.mfx-toggle-button .circle {
+  -fx-fill: #424242;
+}
+
+.mfx-toggle-button .line {
+  -fx-stroke: #424242;
+}
+
+.mfx-toggle-button:selected .mfx-ripple-generator {
+  -mfx-ripple-color: #424242;
+}
+
+.mfx-toggle-button:selected .circle {
+  -fx-fill: #6200EE;
+}
+
+.mfx-toggle-button:selected .line {
+  -fx-stroke: #6200EE;
+}
+
+
+/********************
+Date Picker
+********************/
+
+.mfx-date-picker .icon:hover {
+  -mfx-color: #725BB2;
+}
+
+
+/********************
+Popup
+********************/
+
+.mfx-date-picker .date-picker-popup .months-combo:focused,
+.mfx-date-picker .date-picker-popup .years-combo:focused {
+  -fx-background-color: #f8f7fa;
+  -fx-text-fill: #725BB2;
+}
+
+.mfx-date-picker .date-picker-popup .months-combo .virtual-flow .mfx-combo-box-cell:selected .label,
+.mfx-date-picker .date-picker-popup .years-combo .virtual-flow .mfx-combo-box-cell:selected .label {
+  -fx-text-fill: #725BB2;
+}
+
+.mfx-date-picker .date-picker-popup .week-day {
+  -fx-text-fill: #725BB2;
+}
+
+.mfx-date-picker .date-picker-popup .mfx-date-cell:hover {
+  -fx-text-fill: #8a79bb;
+  -fx-font-weight: bold;
+}
+
+/*!*Statistics css end*!*/
+
+/*Import css end*/
+
+/*Settings css begin*/
+
+.tree-heading:selected, .tree-subheading:selected{
+  -fx-background-color: #b19ef2;
+  -fx-text-fill: white;
+}
+
+.tree-heading:filled:hover, .tree-subheading:filled:hover {
+  -fx-background-color: #b19ef2;
+  -fx-text-fill: white;
+}
+
+.tree-heading:selected:hover, .tree-subheading:selected:hover {
+  -fx-background-color: #b19ef2;
+  -fx-text-fill: white;
+}
+
+.ok-button:hover {
+  -fx-background-color: #5f43a7;
+}
+
+.ok-button {
+  -fx-background-color: #725BB2;
+}
+

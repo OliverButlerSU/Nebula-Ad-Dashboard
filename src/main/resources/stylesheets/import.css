@@ -1,0 +1,51 @@
+
+.instructions {
+  -fx-font-weight: semi-bold;
+  -fx-font-size: 20px;
+  -fx-text-fill: #000000;
+}
+
+
+.home .btn, .print .btn, .settings .btn, .help .btn, .stats .btn {
+  -fx-background-color: #414141;
+}
+
+.home .label, .print .label, .settings .label, .help .label, .stats .label {
+  -fx-text-fill: #414141;
+}
+
+.home:hover .btn, .print:hover .btn, .settings:hover .btn, .help:hover .btn, .stats:hover .btn {
+  -fx-background-color: #8a79bb;
+}
+
+.home:hover .label, .print:hover .label, .settings:hover .label, .help:hover .label, .stats:hover .label {
+  -fx-text-fill: #8a79bb;
+}
+
+/*Instead of doing this, just asign the selected button in each scene, the class or id of selected and change it here. This will also work way better when changing things up using themes.*/
+
+.import .btn {
+  -fx-background-color: #725BB2;
+}
+
+.import:hover .btn {
+  -fx-background-color: #725BB2;
+}
+
+.import:hover .label {
+  -fx-text-fill: #725BB2;
+}
+
+.import .label {
+  -fx-text-fill: #725BB2;
+}
+
+.fileBox {
+  -fx-background-color: #FFFFFF;
+  -fx-background-radius: 30;
+}
+
+
+
+
+

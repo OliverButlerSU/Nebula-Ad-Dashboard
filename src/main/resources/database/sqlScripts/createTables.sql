@@ -1,0 +1,29 @@
+PRAGMA foreign_keys=ON;
+
+DROP TABLE IF EXISTS ClickLog;
+DROP TABLE IF EXISTS ImpressionLog;
+DROP TABLE IF EXISTS ServerLog;
+
+CREATE TABLE IF NOT EXISTS ServerLog(
+    "EntryDate" TIMESTAMP NOT NULL,
+    "ID" VARCHAR(20) NOT NULL,
+    "ExitDate" TIMESTAMP,
+    "PagesViewed" INTEGER NOT NULL,
+    "Conversion" BOOL NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ImpressionLog(
+    "Date" TIMESTAMP NOT NULL,
+    "ID" VARCHAR(20) NOT NULL,
+    "Gender" VARCHAR(6) NOT NULL,
+    "Age" VARCHAR(6) NOT NULL,
+    "Income" VARCHAR(5) NOT NULL,
+    "Context" VARCHAR(12) NOT NULL,
+    "ImpressionCost" FLOAT NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS ClickLog(
+    "Date" TIMESTAMP NOT NULL,
+    "ID" VARCHAR(20) NOT NULL,
+    "ClickCost" FLOAT NOT NULL
+);

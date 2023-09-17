@@ -1,0 +1,90 @@
+/*@font-face {*/
+/*  font-family: 'Headings';*/
+/*  src: url('../fonts/Work_Sans/static/WorkSans-ExtraBold.ttf');*/
+/*}*/
+/*@font-face {*/
+/*  font-family: 'Body';*/
+/*  src: url('../fonts/Merriweather/Merriweather-Regular.ttf');*/
+/*}*/
+.root {
+  -fx-font-family: 'Headings';
+}
+.topBar {
+  -fx-background-color: #f5f5f5;
+  -fx-border-style: solid;
+  -fx-border-width: 0.1px, 0px, 0px, 0.23px;
+  -fx-border-color: rgba(0, 0, 0, 1);
+}
+
+.side {
+  -fx-background-color: #FFFFFF;
+  -fx-border-style: solid;
+  -fx-border-width: 0.1px, 10px, 0px, 0px;
+  -fx-border-color: rgba(0, 0, 0, 1);
+}
+
+.my-borderpane {
+  /*-fx-background-color: linear-gradient(to bottom right, #E3EDFF 7.67%, #FFF8FD 91.37%);*/
+  -fx-background-image: url("Design/magicpattern-mesh-gradient-1680254629947.png");
+  -fx-background-color: transparent;
+  -fx-background-size: cover;
+  -fx-background-position: center;
+  -fx-background-repeat: no-repeat;
+  /*-fx-background-color: red;*/
+}
+
+.rec {
+  -fx-fill: gray;
+  /*-fx-background-color: red;*/
+}
+
+.heading {
+  -fx-font-family: "Work Sans";
+  /*-fx-font-weight: ;*/
+  /*-fx-font-weight: 900;*/
+  -fx-font-size: 40px;
+  -fx-line-height: 35px;
+  -fx-fill: #725BB2;
+  -fx-font-weight: 800;
+}
+
+.prompt {
+  -fx-font-family: "Work Sans";
+  -fx-font-size: 20px;
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+}
+.title-container{
+  -fx-padding: 50 0 0 0;
+}
+.buttons-container{
+  -fx-padding: -80 0 0 0;
+}
+
+.button {
+  -fx-background-color: #725BB2;
+  -fx-text-fill: white;
+  -fx-font-family: "Work Sans";
+  -fx-font-size: 15px;
+  -fx-font-weight: 800;
+}
+
+TextField {
+  -fx-font-family: "Work Sans";
+  -fx-font-size: 15px;
+  -fx-font-weight: 800;
+}
+
+Image {
+  -fx-pref-width: 20px;
+}
+
+
+
+
+
+
+
+
+
+

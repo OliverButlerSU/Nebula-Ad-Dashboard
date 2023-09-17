@@ -1,0 +1,10 @@
+
+.helpTitle {
+  -fx-font-size: 64px;
+  -font-weight: bold;
+}
+
+.helpSubTitle {
+  -fx-font-size: 32px;
+  -font-weight: bold;
+}
